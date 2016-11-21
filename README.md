@@ -9,12 +9,18 @@ Ne pas copier le dossier `.git`
 
 ## 3/ Préparer les paramètres
 ### Amazon S3
+Ajouter un bucket sur le compte dev@whatson-web.com (`Amazon - dev@whatson-web.com` dans 1Password)
+
+[Tuto](https://github.com/whatson-web/wiki/blob/master/Proc%C3%A9dures/D%C3%A9veloppement/Amazon/Cr%C3%A9ation%20Bucket%20Amazon%20S3.md)
+
 - key
 - secret
 - region
-- bucket
+- bucket (`eu-central-1`)
 
 ### Mailgun
+Ajouter un domaine sur le compte dev@whatson-web.com (`Mailgun - dev@whatson-web.com` dans 1Password)
+
 - key
 - domain
 - api-key
