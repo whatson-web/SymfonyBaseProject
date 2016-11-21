@@ -1,0 +1,26 @@
+# SUDO
+sudo_wh_user:
+    resource: "@WHUserBundle/Controller/SuperAdmin/"
+    type:     annotation
+
+sudo_wh_seo:
+    resource: "@WHSeoBundle/Controller/SuperAdmin/"
+    type:     annotation
+
+sudo_wh_superadmin:
+    resource: "@WHSuperAdminBundle/Controller/SuperAdmin/"
+    type:     annotation
+
+# ADMIN
+bk_wh_user:
+    resource: "@WHUserBundle/Controller/Backend/"
+    type:     annotation
+
+# EXTERNAL BUNDLES
+elfinder:
+     resource: "@FMElfinderBundle/Resources/config/routing.yml"
+
+# FRONT
+ft_wh_seo:
+    resource: "@WHSeoBundle/Controller/Frontend/"
+    type:     annotation

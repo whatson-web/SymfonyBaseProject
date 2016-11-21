@@ -1,0 +1,17 @@
+parameters:
+    database_host:
+    database_port:
+    database_name:
+    database_user:
+    database_password:
+
+    secret:            ThisTokenIsNotSoSecretChangeIt
+
+    aws.s3.key:
+    aws.s3.secret:
+    aws.s3.region:
+    aws.s3.bucket:
+
+    mailgun.key:
+    mailgun.domain:
+    mailgun.api-key:
