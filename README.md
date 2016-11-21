@@ -1,62 +1,31 @@
-# Roadmap
+# Installation
+## 1/ Cloner les fichiers dans un dossier dédié
+La première fois : 
+`git clone git@github.com:whatson-web/SymfonyBaseProject.git mesProjets/SymfonyBaseProject`
+Sinon faire un `git pull`
 
-## Standards
-- PHPStorm
-- Coding
-- Symfony
-- Git
+## 2/ Copier tout le dossier SymfonyBaseProject dans le dossier du projet
+Ne pas copier le dossier `.git`
 
-## Conventions
-- Coding
-- Symfony
+## 3/ Préparer les paramètres
+### Amazon S3
+- key
+- secret
+- region
+- bucket
 
-## BaseBundle V0
-### BackendBundle
-### BackendTemplateBundle
-### Packagist + Versionning git
+### Mailgun
+- key
+- domain
+- api-key
 
-## BaseBundle V1
-### AmazonS3MediaBundle
-- Gaufrette (https://github.com/KnpLabs/KnpGaufretteBundle) : https://github.com/KnpLabs/KnpGaufretteBundle/issues/21
-- https://github.com/whs/elFinder-driver
-
-### SeoBundle
-### CmsBundle
-### BlogBundle
-### UserBundle
-
-## BaseBundle V2
-### BlockBundle
-### MetaBundle
-
-## BaseBundle V3
-### CatalogueBundle
-- Caractéristiques
-- Attributs
-- Générateur d'articles (CF Prestashop)
-
-## BaseBundle V4
-### EcommerceBundle
-- Docs intégrer pour tous les systèmes de paiement classiques
-- Améliorations des adresses
-
-## BaseBundle V5
-### SuperAdminBundle
-- Forms pour éditer les configs
-- Edition des paramètres techniques
-- Gestion des templates de page
-
-## Tests unitaires
-
-## Passage Symfony 3
-
-## BaseBundle V6
-### MediaBundle (Facebook, Twitter, Youtube, Dailymotion, Vimeo)
-
-## Tests
-- Capistrano
-- Elastic Search
-- RabbitMQ
-- Laravel
-- Node
-- Angular
+## 4/ Lancer l'installation
+	composer install
+	app/console doctrine:schema:update --force
+	app/console assetic:dump
+	app/console cache:clear
+	app/console cache:clear --env=prod
+	
+## 5/ Installation d'autres bundles
+- [CMS](https://github.com/whatson-web/CmsBundle/blob/master/docs/Installation.md)
+- [Blog](https://github.com/whatson-web/BlogBundle/blob/master/docs/Installation.md)
