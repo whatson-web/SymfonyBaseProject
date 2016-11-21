@@ -9,7 +9,7 @@ parameters:
 
     aws.s3.key:
     aws.s3.secret:
-    aws.s3.region:
+    aws.s3.region: eu-central-1
     aws.s3.bucket:
 
     mailgun.key:
