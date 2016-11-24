@@ -9,12 +9,17 @@ Ne pas copier le dossier `.git`
 
 ## 3/ Préparer les paramètres
 ### Amazon S3
+Ajouter un bucket sur le compte dev@whatson-web.com (`Amazon - dev@whatson-web.com` dans 1Password)
+
+[Tuto](https://github.com/whatson-web/wiki/blob/master/Proc%C3%A9dures/D%C3%A9veloppement/Amazon/Cr%C3%A9ation%20Bucket%20Amazon%20S3.md)
+
 - key
 - secret
-- region
 - bucket
 
 ### Mailgun
+Ajouter un domaine sur le compte dev@whatson-web.com (`Mailgun - dev@whatson-web.com` dans 1Password)
+
 - key
 - domain
 - api-key
@@ -26,6 +31,12 @@ Ne pas copier le dossier `.git`
 	app/console cache:clear
 	app/console cache:clear --env=prod
 	
-## 5/ Installation d'autres bundles
+## 5/ Ajouter un accès administrateur
+Exemple :
+
+	app/console fos:user:create jf@whatson-web.com jf@whatson-web.com motdepasse
+	app/console fos:user:promote jf@whatson-web.com ROLE_SUPER_ADMIN
+
+## 6/ Installation d'autres bundles
 - [CMS](https://github.com/whatson-web/CmsBundle/blob/master/docs/Installation.md)
 - [Blog](https://github.com/whatson-web/BlogBundle/blob/master/docs/Installation.md)
