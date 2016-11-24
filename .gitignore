@@ -41,3 +41,6 @@
 
 # PHPStorm
 /.idea/
+
+# Cache SASS
+.sass-cache
