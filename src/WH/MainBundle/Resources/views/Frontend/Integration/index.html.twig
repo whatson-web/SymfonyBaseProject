@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Intégration</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <style type="text/css">
+        .btn {
+            display: block;
+            margin: 0 0 10px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    {% for category in categories %}
+
+        <h2>{{ category.name }}</h2>
+
+        {% for page in category.pages %}
+
+            {% if loop.index % 4 == 1 %}
+                <div class="row">
+            {% endif %}
+
+            <div class="col-md-3">
+                <a href="{{ path('bk_wh_main_integration_index', {'slug' : page.slug}) }}"
+                   class="btn btn-primary">{{ page.name }}</a>
+            </div>
+
+            {% if loop.index % 4 == 0 or loop.last %}
+                </div>
+            {% endif %}
+
+        {% endfor %}
+
+    {% endfor %}
+
+</div>
+
+</body>
+</html>

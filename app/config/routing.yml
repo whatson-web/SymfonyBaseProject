@@ -21,6 +21,10 @@ elfinder:
      resource: "@FMElfinderBundle/Resources/config/routing.yml"
 
 # FRONT
+ft_wh_main:
+    resource: "@WHMainBundle/Controller/Frontend/"
+    type:     annotation
+
 ft_wh_seo:
     resource: "@WHSeoBundle/Controller/Frontend/"
     type:     annotation
