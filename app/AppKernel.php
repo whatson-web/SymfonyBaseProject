@@ -37,6 +37,7 @@ class AppKernel extends Kernel
 			new cspoo\Swiftmailer\MailgunBundle\cspooSwiftmailerMailgunBundle(),
 			new Http\HttplugBundle\HttplugBundle(),
 			new WH\MainBundle\WHMainBundle(),
+			new WH\ParameterBundle\WHParameterBundle(),
 		);
 
 		if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

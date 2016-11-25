@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0146763a0cf7207dafbbb5e10b6d2fa0",
-    "content-hash": "e203bf55cd439ddaecbc377f1915e929",
+    "hash": "75f2e0b8353253870af367e80835f00e",
+    "content-hash": "fb7016a79198d59208ba394ebdb0476b",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -4978,12 +4978,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/BackendBundle.git",
-                "reference": "6aeffd97374d5c4d9d903a579cc43e6e2f29a5ac"
+                "reference": "f56c76841eda9b612231863560c6b387270e38ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/BackendBundle/zipball/6aeffd97374d5c4d9d903a579cc43e6e2f29a5ac",
-                "reference": "6aeffd97374d5c4d9d903a579cc43e6e2f29a5ac",
+                "url": "https://api.github.com/repos/whatson-web/BackendBundle/zipball/f56c76841eda9b612231863560c6b387270e38ea",
+                "reference": "f56c76841eda9b612231863560c6b387270e38ea",
                 "shasum": ""
             },
             "require": {
@@ -5007,7 +5007,7 @@
             ],
             "description": "Symfony - Whatson Web - BackendBundle",
             "homepage": "https://github.com/whatson-web/BackendBundle",
-            "time": "2016-11-24 10:08:20"
+            "time": "2016-11-25 13:20:25"
         },
         {
             "name": "whatson-web/backend-template-bundle",
@@ -5121,6 +5121,43 @@
             "time": "2016-11-25 09:02:55"
         },
         {
+            "name": "whatson-web/parameter-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/whatson-web/ParameterBundle.git",
+                "reference": "f77ce9e0d5029236cc877f205b6be0ce28863477"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/whatson-web/ParameterBundle/zipball/f77ce9e0d5029236cc877f205b6be0ce28863477",
+                "reference": "f77ce9e0d5029236cc877f205b6be0ce28863477",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "WH\\ParameterBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Whatson Web - Developers",
+                    "email": "dev@whatson-web.com"
+                }
+            ],
+            "description": "Symfony - Whatson Web - ParameterBundle",
+            "homepage": "https://github.com/whatson-web/ParameterBundle",
+            "time": "2016-11-25 13:30:28"
+        },
+        {
             "name": "whatson-web/seo-bundle",
             "version": "dev-master",
             "source": {
@@ -5163,12 +5200,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/SuperAdminBundle.git",
-                "reference": "89d80f063e4337398694b49307bb140bfe12d271"
+                "reference": "3b521cc35a8418511fa1a72cd77afb27b91eeff6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/SuperAdminBundle/zipball/89d80f063e4337398694b49307bb140bfe12d271",
-                "reference": "89d80f063e4337398694b49307bb140bfe12d271",
+                "url": "https://api.github.com/repos/whatson-web/SuperAdminBundle/zipball/3b521cc35a8418511fa1a72cd77afb27b91eeff6",
+                "reference": "3b521cc35a8418511fa1a72cd77afb27b91eeff6",
                 "shasum": ""
             },
             "require": {
@@ -5192,7 +5229,7 @@
             ],
             "description": "Symfony - Whatson Web - SuperAdminBundle",
             "homepage": "https://github.com/whatson-web/SuperAdminBundle",
-            "time": "2016-11-22 11:08:37"
+            "time": "2016-11-25 12:15:19"
         },
         {
             "name": "whatson-web/user-bundle",
@@ -5351,7 +5388,8 @@
         "whatson-web/backend-template-bundle": 20,
         "whatson-web/super-admin-bundle": 20,
         "whatson-web/seo-bundle": 20,
-        "whatson-web/media-bundle": 20
+        "whatson-web/media-bundle": 20,
+        "whatson-web/parameter-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

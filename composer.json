@@ -43,7 +43,8 @@
         "whatson-web/backend-template-bundle": "dev-master",
         "whatson-web/super-admin-bundle": "dev-master",
         "whatson-web/seo-bundle": "dev-master",
-        "whatson-web/media-bundle": "dev-master"
+        "whatson-web/media-bundle": "dev-master",
+        "whatson-web/parameter-bundle": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",

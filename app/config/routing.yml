@@ -16,6 +16,10 @@ bk_wh_user:
     resource: "@WHUserBundle/Controller/Backend/"
     type:     annotation
 
+bk_wh_parameter:
+    resource: "@WHParameterBundle/Controller/Backend/"
+    type:     annotation
+
 # EXTERNAL BUNDLES
 elfinder:
      resource: "@FMElfinderBundle/Resources/config/routing.yml"
