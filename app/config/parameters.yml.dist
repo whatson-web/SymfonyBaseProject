@@ -1,4 +1,7 @@
 parameters:
+
+    project_name:
+
     database_host:
     database_port:
     database_name:
@@ -14,4 +17,3 @@ parameters:
 
     mailgun.key:
     mailgun.domain:
-    mailgun.api-key:
