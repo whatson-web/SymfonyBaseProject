@@ -31,11 +31,8 @@ Ajouter un domaine sur le compte dev@whatson-web.com (`Mailgun - dev@whatson-web
 	app/console cache:clear
 	app/console cache:clear --env=prod
 	
-## 5/ Ajouter un accès administrateur
-Exemple :
-
-	app/console fos:user:create jf@whatson-web.com jf@whatson-web.com motdepasse
-	app/console fos:user:promote jf@whatson-web.com ROLE_SUPER_ADMIN
+## 5/ Ajouter un accès super admin
+Suivre le [tuto](https://github.com/whatson-web/wiki/blob/master/Proc%C3%A9dures/Administration/Cr%C3%A9ation%20super%20admin.md)
 
 ## 6/ Installation d'autres bundles
 - [CMS](https://github.com/whatson-web/CmsBundle/blob/master/docs/Installation.md)
