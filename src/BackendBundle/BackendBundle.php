@@ -1,9 +1,9 @@
 <?php
 
-namespace WH\MainBundle;
+namespace BackendBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class WHMainBundle extends Bundle
+class BackendBundle extends Bundle
 {
 }

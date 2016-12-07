@@ -26,7 +26,7 @@ elfinder:
 
 # FRONT
 ft_wh_main:
-    resource: "@WHMainBundle/Controller/Frontend/"
+    resource: "@MainBundle/Controller/Frontend/"
     type:     annotation
 
 ft_wh_seo:

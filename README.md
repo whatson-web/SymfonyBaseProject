@@ -22,7 +22,6 @@ Ajouter un domaine sur le compte dev@whatson-web.com (`Mailgun - dev@whatson-web
 
 - key
 - domain
-- api-key
 
 ## 4/ Lancer l'installation
 	composer install

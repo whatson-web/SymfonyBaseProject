@@ -103,50 +103,6 @@ wh_seo:
 
 wh_media:
 
-wh_super_admin:
-    menus:
-        super-admin-menu:
-            menuItems:
-                home:
-                    name: 'Accueil'
-                    route: 'sudo_wh_dashboard'
-                seo:
-                    name: 'SEO'
-                    children:
-                        configurations:
-                            name: 'Configurations'
-                            route: 'sudo_wh_seo_config_preview'
-                        urls:
-                            name: 'Urls'
-                            route: 'sudo_wh_seo_url_index'
-                        redirections:
-                            name: 'Redirections'
-                            route: 'sudo_wh_seo_redirection_index'
-                commands:
-                    name: 'Commandes'
-                    route: 'sudo_wh_superadmin_command_list'
-        super-admin-menu-right:
-            menuItems:
-                logout:
-                    name: 'Déconnexion'
-                    route: 'sudo_wh_user_security_logout'
-        backend-menu:
-            menuItems:
-                home:
-                    name: 'Accueil'
-                    route: 'bk_wh_dashboard'
-                users:
-                    name: 'Utilisateurs'
-                    route: 'bk_wh_user_user_index'
-                parameters:
-                    name: 'Paramètres'
-                    route: 'bk_wh_parameter_parameter_index'
-        backend-menu-right:
-            menuItems:
-                logout:
-                    name: 'Déconnexion'
-                    route: 'bk_wh_user_security_logout'
-
 oneup_flysystem:
     adapters:
         acme.flysystem_adapter:

@@ -1,6 +1,5 @@
 <?php
-
-namespace WH\MainBundle\Controller\Frontend;
+namespace MainBundle\Controller\Frontend;
 
 use Doctrine\DBAL\Types\TextType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -9,7 +8,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 /**
  * Class IntegrationController
  *
- * @package WH\MainBundle\Controller\Frontend
+ * @package MainBundle\Controller\Frontend
  */
 class IntegrationController extends Controller
 {
@@ -24,7 +23,6 @@ class IntegrationController extends Controller
 			),
 		),
 	);
-
 	private $pages = array(
 		'classicExample'        => array(
 			'slug' => 'classicExample',
@@ -45,7 +43,6 @@ class IntegrationController extends Controller
 	private function getCategories()
 	{
 		$categories = $this->categories;
-
 		foreach ($categories as &$category) {
 			foreach ($category['pages'] as &$page) {
 				$page = $this->pages[$page];
@@ -66,16 +63,13 @@ class IntegrationController extends Controller
 	{
 		if ($slug) {
 			$page = $this->pages[$slug];
-
-			$page['view'] = 'WHMainBundle:Frontend/Integration:';
-
+			$page['view'] = 'MainBundle:Frontend/Integration:';
 			foreach ($this->categories as $category) {
 				if (in_array($page['slug'], $category['pages'])) {
 					$page['view'] .= $category['slug'] . '/';
 				}
 			}
 			$page['view'] .= $page['slug'] . '.html.twig';
-
 			if (!empty($page['controller'])) {
 				return $this->forward(
 					$page['controller'],
@@ -91,7 +85,7 @@ class IntegrationController extends Controller
 		}
 
 		return $this->render(
-			'WHMainBundle:Frontend/Integration:index.html.twig',
+			'MainBundle:Frontend/Integration:index.html.twig',
 			array(
 				'pages'      => $this->pages,
 				'categories' => $this->getCategories(),
