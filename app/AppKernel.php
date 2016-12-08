@@ -27,7 +27,6 @@ class AppKernel extends Kernel
 			new Stfalcon\Bundle\TinymceBundle\StfalconTinymceBundle(),
 			new WH\SuperAdminBundle\WHSuperAdminBundle(),
 			new Knp\Bundle\MenuBundle\KnpMenuBundle(),
-			new Aws\Symfony\AwsBundle(),
 			new WH\SeoBundle\WHSeoBundle(),
 			new Oneup\FlysystemBundle\OneupFlysystemBundle(),
 			new FM\ElfinderBundle\FMElfinderBundle(),

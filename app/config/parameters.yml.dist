@@ -10,10 +10,11 @@ parameters:
 
     secret:            ThisTokenIsNotSoSecretChangeIt
 
-    aws.s3.key:
-    aws.s3.secret:
-    aws.s3.region: eu-central-1
-    aws.s3.bucket:
+    media.host:
+    media.username:
+    media.password:
+    media.root: /media/
+    media.baseurl: 'http://media.mondomaine.fr'
 
     mailgun.key:
     mailgun.domain:

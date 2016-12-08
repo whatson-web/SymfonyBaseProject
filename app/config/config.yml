@@ -35,7 +35,7 @@ twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
     globals:
-        wh_media_baseurl: 'https://s3.%aws.s3.region%.amazonaws.com/%aws.s3.bucket%'
+        wh_media_baseurl: '%media.baseurl%'
 
 # Doctrine Configuration
 doctrine:
@@ -105,15 +105,15 @@ wh_media:
 
 oneup_flysystem:
     adapters:
-        acme.flysystem_adapter:
-            awss3v3:
-                client: acme.s3_client
-                bucket: "%aws.s3.bucket%"
-                prefix: ~
-
+        media_ftp.flysystem_adapter:
+            ftp:
+                host: %media.host%
+                username: %media.username%
+                password: %media.password%
+                root: %media.root%
     filesystems:
-        wh_aws_s3:
-            adapter: acme.flysystem_adapter
+        media_ftp:
+            adapter: media_ftp.flysystem_adapter
 
 fm_elfinder:
     instances:
@@ -128,17 +128,18 @@ fm_elfinder:
                         driver: Flysystem
                         path: ''
                         flysystem:
-                            type: aws_s3_v3
+                            type: ftp
                             options:
-                                aws_s3_v3:
-                                    key: %aws.s3.key%
-                                    secret: %aws.s3.secret%
-                                    region: %aws.s3.region%
-                                    version: 'latest'
-                                    bucket_name: %aws.s3.bucket%
+                                ftp:
+                                    host: %media.host%
+                                    username: %media.username%
+                                    password: %media.password%
+                                    port: 21
+                                    ssl: false
+                                    root: %media.root%
                         upload_allow: ['all']
                         upload_deny: ['all']
-                        upload_max_size: 2M
+                        upload_max_size: 10M
             path_prefix: ''
         tinymce:
             locale: %locale%
@@ -151,18 +152,19 @@ fm_elfinder:
                         driver: Flysystem
                         path: ''
                         flysystem:
-                            type: aws_s3_v3
+                            type: ftp
                             options:
-                                aws_s3_v3:
-                                    key: %aws.s3.key%
-                                    secret: %aws.s3.secret%
-                                    region: %aws.s3.region%
-                                    version: 'latest'
-                                    bucket_name: %aws.s3.bucket%
+                                ftp:
+                                    host: %media.host%
+                                    username: %media.username%
+                                    password: %media.password%
+                                    port: 21
+                                    ssl: false
+                                    root: %media.root%
                         upload_allow: ['all']
                         upload_deny: ['all']
-                        upload_max_size: 2M
-            path_prefix: 'https://s3.%aws.s3.region%.amazonaws.com/%aws.s3.bucket%'
+                        upload_max_size: 10M
+            path_prefix: '%media.baseurl%'
 
 fos_user:
     db_driver: orm

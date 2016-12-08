@@ -8,14 +8,16 @@ Sinon faire un `git pull`
 Ne pas copier le dossier `.git`
 
 ## 3/ Préparer les paramètres
-### Amazon S3
-Ajouter un bucket sur le compte dev@whatson-web.com (`Amazon - dev@whatson-web.com` dans 1Password)
+### Medias
+Ajouter un sous-domaine `media` sur le domaine
+Créer la zone DNS de type A si possible (sinon utiliser un alias `media.mondomaine.whatson-web.com`)
+Lors d'une installation sur un serveur en ligne, vérifier que l'IP du serveur a bien le droit d'utiliser le service `Proftpd`
 
-[Tuto](https://github.com/whatson-web/wiki/blob/master/Proc%C3%A9dures/D%C3%A9veloppement/Amazon/Cr%C3%A9ation%20Bucket%20Amazon%20S3.md)
-
-- key
-- secret
-- bucket
+- `media.host` (IP du FTP)
+- `media.username` (Login du FTP)
+- `media.password` (Mot de passe du FTP)
+- `media.root`: /media/
+- `media.baseurl`: Selon les cas : `http://media.mondomaine.whatson-web.com`, `http://media.mondomaine.fr` ou `http://cdn.media.mondomaine.fr`
 
 ### Mailgun
 Ajouter un domaine sur le compte dev@whatson-web.com (`Mailgun - dev@whatson-web.com` dans 1Password)
