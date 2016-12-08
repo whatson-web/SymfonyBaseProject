@@ -28,6 +28,7 @@ Ajouter un domaine sur le compte dev@whatson-web.com (`Mailgun - dev@whatson-web
 ## 4/ Lancer l'installation
 	composer install
 	app/console doctrine:schema:update --force
+	app/console assets:install web/
 	app/console assetic:dump
 	app/console cache:clear
 	app/console cache:clear --env=prod
