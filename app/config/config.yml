@@ -92,11 +92,13 @@ stfalcon_tinymce:
             file_browser_callback : elFinderBrowser
             menubar: false
             plugins:
-                - "code link image table template textcolor colorpicker"
+                - "code link image table template textcolor colorpicker paste"
             toolbar1: "undo redo | styleselect | bullist link image table | template | code"
             toolbar2: "alignleft aligncenter alignright alignjustify | bold italic | forecolor backcolor"
             image_title: true
             image_dimensions: false
+            paste_webkit_styles: ""
+            paste_retain_style_properties: ""
 
 wh_seo:
     entities:
