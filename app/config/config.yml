@@ -58,6 +58,13 @@ doctrine:
         auto_generate_proxy_classes: "%kernel.debug%"
         naming_strategy: doctrine.orm.naming_strategy.underscore
         auto_mapping: true
+        mappings:
+            WHEntitiesUser:
+                type: annotation
+                is_bundle: false
+                dir: '%kernel.root_dir%/../src/WHEntities/UserBundle'
+                prefix: WH\UserBundle\Entity
+                alias: WHUserBundle
 
 # Swiftmailer Configuration
 cspoo_swiftmailer_mailgun:
