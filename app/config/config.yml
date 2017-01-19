@@ -90,6 +90,7 @@ stof_doctrine_extensions:
         default:
             sluggable: true
             timestampable: true
+            translatable: true
             tree: true
 
 stfalcon_tinymce:
