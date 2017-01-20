@@ -115,15 +115,15 @@ wh_media:
 
 oneup_flysystem:
     adapters:
-        media_ftp.flysystem_adapter:
+        media.flysystem_adapter:
             ftp:
                 host: %media.host%
                 username: %media.username%
                 password: %media.password%
                 root: %media.root%
     filesystems:
-        media_ftp:
-            adapter: media_ftp.flysystem_adapter
+        media:
+            adapter: media.flysystem_adapter
 
 fm_elfinder:
     instances:
