@@ -14,6 +14,10 @@
     <![endif]-->
 
     {% stylesheets
+    'front/plugins/bootstrap/css/bootstrap.min.css'
+    "front/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css"
+    "front/plugins/select2/css/select2.min.css"
+    "front/plugins/slick/css/slick.css"
     filter="cssrewrite" %}
     <link rel="stylesheet" href="{{ asset_url }}"/>
     {% endstylesheets %}
@@ -32,7 +36,17 @@
 
 {% block body %}{% endblock %}
 
-{% javascripts %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+{% javascripts
+'front/plugins/bootstrap/js/bootstrap.min.js'
+'front/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js'
+'front/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js'
+'front/plugins/fresco/js/fresco/fresco.js'
+'front/plugins/select2/js/select2.min.js'
+'front/plugins/slick/js/slick.min.js'
+'front/whatson/js/layout.js'
+%}
 <script src="{{ asset_url }}"></script>
 {% endjavascripts %}
 
