@@ -4742,12 +4742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/BackendBundle.git",
-                "reference": "ce69f4ea0596fe136e2980400f1586b089adce4f"
+                "reference": "9ea2c788a01b7d19621a26bb15a29dec71e0f47d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/BackendBundle/zipball/ce69f4ea0596fe136e2980400f1586b089adce4f",
-                "reference": "ce69f4ea0596fe136e2980400f1586b089adce4f",
+                "url": "https://api.github.com/repos/whatson-web/BackendBundle/zipball/9ea2c788a01b7d19621a26bb15a29dec71e0f47d",
+                "reference": "9ea2c788a01b7d19621a26bb15a29dec71e0f47d",
                 "shasum": ""
             },
             "require": {
@@ -4771,7 +4771,7 @@
             ],
             "description": "Symfony - Whatson Web - BackendBundle",
             "homepage": "https://github.com/whatson-web/BackendBundle",
-            "time": "2017-02-17 13:24:10"
+            "time": "2017-02-17 13:53:16"
         },
         {
             "name": "whatson-web/backend-template-bundle",
@@ -4816,12 +4816,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/LibBundle.git",
-                "reference": "8a52934888d0ce6c91df281e13b4d00f72d32f69"
+                "reference": "b985ae18fd872313966005a7c0574ac14f5546c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/LibBundle/zipball/8a52934888d0ce6c91df281e13b4d00f72d32f69",
-                "reference": "8a52934888d0ce6c91df281e13b4d00f72d32f69",
+                "url": "https://api.github.com/repos/whatson-web/LibBundle/zipball/b985ae18fd872313966005a7c0574ac14f5546c8",
+                "reference": "b985ae18fd872313966005a7c0574ac14f5546c8",
                 "shasum": ""
             },
             "require": {
@@ -4845,7 +4845,7 @@
             ],
             "description": "Symfony - Whatson Web - LibBundle",
             "homepage": "https://github.com/whatson-web/LibBundle",
-            "time": "2017-02-16 16:42:10"
+            "time": "2017-02-17 13:53:29"
         },
         {
             "name": "whatson-web/media-bundle",
