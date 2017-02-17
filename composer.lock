@@ -4742,12 +4742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/BackendBundle.git",
-                "reference": "602ba308cfcdf44e694b9b39466145edb7a64344"
+                "reference": "ce69f4ea0596fe136e2980400f1586b089adce4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/BackendBundle/zipball/602ba308cfcdf44e694b9b39466145edb7a64344",
-                "reference": "602ba308cfcdf44e694b9b39466145edb7a64344",
+                "url": "https://api.github.com/repos/whatson-web/BackendBundle/zipball/ce69f4ea0596fe136e2980400f1586b089adce4f",
+                "reference": "ce69f4ea0596fe136e2980400f1586b089adce4f",
                 "shasum": ""
             },
             "require": {
@@ -4771,7 +4771,7 @@
             ],
             "description": "Symfony - Whatson Web - BackendBundle",
             "homepage": "https://github.com/whatson-web/BackendBundle",
-            "time": "2017-02-17 10:42:45"
+            "time": "2017-02-17 13:24:10"
         },
         {
             "name": "whatson-web/backend-template-bundle",
