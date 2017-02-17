@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0f1c6737b1d2af7b3c04be3de055fb0f",
-    "content-hash": "f533e79ae9c9d47cd31fab723440d0ce",
+    "content-hash": "f9d7f2b967adfcb1d4b8bd8b9ad0491b",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -45,7 +44,7 @@
                 "slug",
                 "transliterator"
             ],
-            "time": "2015-09-28 16:26:35"
+            "time": "2015-09-28T16:26:35+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -94,7 +93,7 @@
                 "stream_filter_append",
                 "stream_filter_register"
             ],
-            "time": "2015-11-08 23:41:30"
+            "time": "2015-11-08T23:41:30+00:00"
         },
         {
             "name": "components/elfinder",
@@ -151,7 +150,7 @@
                 "elfinder",
                 "file manager"
             ],
-            "time": "2016-02-19 14:27:33"
+            "time": "2016-02-19T14:27:33+00:00"
         },
         {
             "name": "components/jquery",
@@ -193,7 +192,7 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2016-05-25 06:50:04"
+            "time": "2016-05-25T06:50:04+00:00"
         },
         {
             "name": "components/jqueryui",
@@ -278,7 +277,7 @@
                 }
             ],
             "description": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. Whether you're building highly interactive web applications or you just need to add a date picker to a form control, jQuery UI is the perfect choice.",
-            "time": "2015-03-13 14:48:12"
+            "time": "2015-03-13T14:48:12+00:00"
         },
         {
             "name": "cspoo/swiftmailer-mailgun-bundle",
@@ -333,7 +332,7 @@
                 "mailgun",
                 "swiftmailer"
             ],
-            "time": "2016-07-12 10:28:31"
+            "time": "2016-07-12T10:28:31+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -401,7 +400,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2015-08-31 12:32:49"
+            "time": "2015-08-31T12:32:49+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -471,7 +470,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2016-10-29 11:16:17"
+            "time": "2016-10-29T11:16:17+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -537,7 +536,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2015-04-14 22:21:58"
+            "time": "2015-04-14T22:21:58+00:00"
         },
         {
             "name": "doctrine/common",
@@ -610,7 +609,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2015-12-25 13:18:31"
+            "time": "2015-12-25T13:18:31+00:00"
         },
         {
             "name": "doctrine/data-fixtures",
@@ -667,7 +666,7 @@
             "keywords": [
                 "database"
             ],
-            "time": "2015-03-30 12:14:13"
+            "time": "2015-03-30T12:14:13+00:00"
         },
         {
             "name": "doctrine/dbal",
@@ -738,7 +737,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2016-09-09 19:13:33"
+            "time": "2016-09-09T19:13:33+00:00"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -819,7 +818,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2016-08-10 15:35:22"
+            "time": "2016-08-10T15:35:22+00:00"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -907,7 +906,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2016-01-26 17:28:51"
+            "time": "2016-01-26T17:28:51+00:00"
         },
         {
             "name": "doctrine/doctrine-fixtures-bundle",
@@ -964,7 +963,7 @@
                 "Fixture",
                 "persistence"
             ],
-            "time": "2015-11-04 21:23:23"
+            "time": "2015-11-04T21:23:23+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -1031,7 +1030,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-11-06 14:35:42"
+            "time": "2015-11-06T14:35:42+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -1085,7 +1084,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2015-06-14 21:17:01"
+            "time": "2015-06-14T21:17:01+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -1139,7 +1138,7 @@
                 "lexer",
                 "parser"
             ],
-            "time": "2014-09-09 13:34:57"
+            "time": "2014-09-09T13:34:57+00:00"
         },
         {
             "name": "doctrine/orm",
@@ -1215,7 +1214,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2016-09-10 18:51:13"
+            "time": "2016-09-10T18:51:13+00:00"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -1371,7 +1370,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2016-10-11 18:03:37"
+            "time": "2016-10-11T18:03:37+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1433,7 +1432,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-10-08 15:01:37"
+            "time": "2016-10-08T15:01:37+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1484,7 +1483,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-11-18 17:47:58"
+            "time": "2016-11-18T17:47:58+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1542,7 +1541,7 @@
                 "stream",
                 "uri"
             ],
-            "time": "2016-06-24 23:00:38"
+            "time": "2016-06-24T23:00:38+00:00"
         },
         {
             "name": "helios-ag/fm-elfinder-bundle",
@@ -1611,7 +1610,7 @@
                 "file manager",
                 "wysiwyg"
             ],
-            "time": "2016-09-03 14:00:30"
+            "time": "2016-09-03T14:00:30+00:00"
         },
         {
             "name": "helios-ag/fm-elfinder-php-connector",
@@ -1665,7 +1664,7 @@
                 "elfinder",
                 "filemanager"
             ],
-            "time": "2016-11-07 13:03:50"
+            "time": "2016-11-07T13:03:50+00:00"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -1716,7 +1715,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2015-11-10 17:04:01"
+            "time": "2015-11-10T17:04:01+00:00"
         },
         {
             "name": "intervention/image",
@@ -1778,7 +1777,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2016-09-01 17:04:03"
+            "time": "2016-09-01T17:04:03+00:00"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -1820,7 +1819,7 @@
                 "hashing",
                 "password"
             ],
-            "time": "2014-11-20 16:49:30"
+            "time": "2014-11-20T16:49:30+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -1870,7 +1869,7 @@
                 "highlight",
                 "sql"
             ],
-            "time": "2014-01-12 16:20:24"
+            "time": "2014-01-12T16:20:24+00:00"
         },
         {
             "name": "knplabs/knp-menu",
@@ -1936,7 +1935,7 @@
                 "menu",
                 "tree"
             ],
-            "time": "2016-09-22 07:36:19"
+            "time": "2016-09-22T07:36:19+00:00"
         },
         {
             "name": "knplabs/knp-menu-bundle",
@@ -1993,7 +1992,7 @@
             "keywords": [
                 "menu"
             ],
-            "time": "2016-09-22 12:24:40"
+            "time": "2016-09-22T12:24:40+00:00"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -2070,7 +2069,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2016-11-11 18:43:20"
+            "time": "2016-11-11T18:43:20+00:00"
         },
         {
             "name": "leafo/scssphp",
@@ -2123,7 +2122,7 @@
                 "scss",
                 "stylesheet"
             ],
-            "time": "2016-09-11 01:34:11"
+            "time": "2016-09-11T01:34:11+00:00"
         },
         {
             "name": "league/flysystem",
@@ -2206,7 +2205,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2016-10-19 20:38:46"
+            "time": "2016-10-19T20:38:46+00:00"
         },
         {
             "name": "league/glide",
@@ -2267,7 +2266,7 @@
                 "manipulation",
                 "processing"
             ],
-            "time": "2016-11-14 16:36:03"
+            "time": "2016-11-14T16:36:03+00:00"
         },
         {
             "name": "league/glide-symfony",
@@ -2310,7 +2309,7 @@
             ],
             "description": "Glide adapter for Symfony",
             "homepage": "http://glide.thephpleague.com",
-            "time": "2016-07-01 16:05:08"
+            "time": "2016-07-01T16:05:08+00:00"
         },
         {
             "name": "mailgun/mailgun-php",
@@ -2354,7 +2353,7 @@
                 }
             ],
             "description": "The Mailgun SDK provides methods for all API functions.",
-            "time": "2016-08-10 16:58:18"
+            "time": "2016-08-10T16:58:18+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2432,7 +2431,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-07-29 03:23:52"
+            "time": "2016-07-29T03:23:52+00:00"
         },
         {
             "name": "oneup/flysystem-bundle",
@@ -2507,7 +2506,7 @@
                 "abstraction",
                 "filesystem"
             ],
-            "time": "2016-11-03 12:44:01"
+            "time": "2016-11-03T12:44:01+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -2555,7 +2554,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-11-07 23:38:38"
+            "time": "2016-11-07T23:38:38+00:00"
         },
         {
             "name": "php-http/cache-plugin",
@@ -2611,7 +2610,7 @@
                 "httplug",
                 "plugin"
             ],
-            "time": "2016-08-16 12:12:50"
+            "time": "2016-08-16T12:12:50+00:00"
         },
         {
             "name": "php-http/client-common",
@@ -2672,7 +2671,7 @@
                 "http",
                 "httplug"
             ],
-            "time": "2016-11-04 09:19:15"
+            "time": "2016-11-04T09:19:15+00:00"
         },
         {
             "name": "php-http/discovery",
@@ -2734,7 +2733,7 @@
                 "message",
                 "psr7"
             ],
-            "time": "2016-10-20 08:05:06"
+            "time": "2016-10-20T08:05:06+00:00"
         },
         {
             "name": "php-http/guzzle6-adapter",
@@ -2794,7 +2793,7 @@
                 "Guzzle",
                 "http"
             ],
-            "time": "2016-05-10 06:13:32"
+            "time": "2016-05-10T06:13:32+00:00"
         },
         {
             "name": "php-http/httplug",
@@ -2850,7 +2849,7 @@
                 "client",
                 "http"
             ],
-            "time": "2016-08-31 08:30:17"
+            "time": "2016-08-31T08:30:17+00:00"
         },
         {
             "name": "php-http/httplug-bundle",
@@ -2932,7 +2931,7 @@
                 "message",
                 "php-http"
             ],
-            "time": "2016-08-16 10:32:13"
+            "time": "2016-08-16T10:32:13+00:00"
         },
         {
             "name": "php-http/logger-plugin",
@@ -2987,7 +2986,7 @@
                 "logger",
                 "plugin"
             ],
-            "time": "2016-05-04 22:43:46"
+            "time": "2016-05-04T22:43:46+00:00"
         },
         {
             "name": "php-http/message",
@@ -3056,7 +3055,7 @@
                 "message",
                 "psr-7"
             ],
-            "time": "2016-10-20 06:59:05"
+            "time": "2016-10-20T06:59:05+00:00"
         },
         {
             "name": "php-http/message-factory",
@@ -3106,7 +3105,7 @@
                 "stream",
                 "uri"
             ],
-            "time": "2015-12-19 14:08:53"
+            "time": "2015-12-19T14:08:53+00:00"
         },
         {
             "name": "php-http/multipart-stream-builder",
@@ -3162,7 +3161,7 @@
                 "message",
                 "stream"
             ],
-            "time": "2016-08-31 10:13:17"
+            "time": "2016-08-31T10:13:17+00:00"
         },
         {
             "name": "php-http/promise",
@@ -3212,7 +3211,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-01-26 13:27:02"
+            "time": "2016-01-26T13:27:02+00:00"
         },
         {
             "name": "php-http/stopwatch-plugin",
@@ -3266,7 +3265,7 @@
                 "plugin",
                 "stopwatch"
             ],
-            "time": "2016-05-19 06:10:14"
+            "time": "2016-05-19T06:10:14+00:00"
         },
         {
             "name": "psr/cache",
@@ -3312,7 +3311,7 @@
                 "psr",
                 "psr-6"
             ],
-            "time": "2016-08-06 20:24:11"
+            "time": "2016-08-06T20:24:11+00:00"
         },
         {
             "name": "psr/http-message",
@@ -3362,7 +3361,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -3409,7 +3408,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "robloach/component-installer",
@@ -3457,7 +3456,7 @@
                 }
             ],
             "description": "Allows installation of Components via Composer.",
-            "time": "2015-08-10 12:35:38"
+            "time": "2015-08-10T12:35:38+00:00"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -3509,7 +3508,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-10-30 23:18:01"
+            "time": "2016-10-30T23:18:01+00:00"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -3571,7 +3570,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2016-03-25 17:08:27"
+            "time": "2016-03-25T17:08:27+00:00"
         },
         {
             "name": "sensiolabs/security-checker",
@@ -3615,7 +3614,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2016-09-23 18:09:57"
+            "time": "2016-09-23T18:09:57+00:00"
         },
         {
             "name": "stfalcon/tinymce-bundle",
@@ -3675,7 +3674,7 @@
                 "tinymce",
                 "wysiwyg"
             ],
-            "time": "2016-05-18 14:48:11"
+            "time": "2016-05-18T14:48:11+00:00"
         },
         {
             "name": "stof/doctrine-extensions-bundle",
@@ -3736,7 +3735,7 @@
                 "translatable",
                 "tree"
             ],
-            "time": "2016-01-26 23:58:32"
+            "time": "2016-01-26T23:58:32+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3789,7 +3788,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-07-08 11:51:25"
+            "time": "2016-07-08T11:51:25+00:00"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -3859,7 +3858,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2015-12-28 13:12:39"
+            "time": "2015-12-28T13:12:39+00:00"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -3919,7 +3918,7 @@
                 "log",
                 "logging"
             ],
-            "time": "2016-11-06 18:54:50"
+            "time": "2016-11-06T18:54:50+00:00"
         },
         {
             "name": "symfony/polyfill-apcu",
@@ -3972,7 +3971,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/polyfill-intl-icu",
@@ -4030,7 +4029,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -4089,7 +4088,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/polyfill-php54",
@@ -4147,7 +4146,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/polyfill-php55",
@@ -4203,7 +4202,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
@@ -4259,7 +4258,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/polyfill-php70",
@@ -4318,7 +4317,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/polyfill-util",
@@ -4370,7 +4369,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/security-acl",
@@ -4431,7 +4430,7 @@
             ],
             "description": "Symfony Security Component - ACL (Access Control List)",
             "homepage": "https://symfony.com",
-            "time": "2015-12-28 09:39:46"
+            "time": "2015-12-28T09:39:46+00:00"
         },
         {
             "name": "symfony/swiftmailer-bundle",
@@ -4490,7 +4489,7 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2016-10-27 17:59:30"
+            "time": "2016-10-27T17:59:30+00:00"
         },
         {
             "name": "symfony/symfony",
@@ -4625,7 +4624,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-11-21 02:24:51"
+            "time": "2016-11-21T02:24:51+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -4674,7 +4673,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18 21:05:29"
+            "time": "2016-11-18T21:05:29+00:00"
         },
         {
             "name": "twig/twig",
@@ -4735,7 +4734,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-11-19 05:52:49"
+            "time": "2016-11-19T05:52:49+00:00"
         },
         {
             "name": "whatson-web/backend-bundle",
@@ -4743,12 +4742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/BackendBundle.git",
-                "reference": "0810061d529358c940c4470bfe470d7254531e89"
+                "reference": "73f4ddd7d130a3f0d0c91cec4d68ad19056a800a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/BackendBundle/zipball/0810061d529358c940c4470bfe470d7254531e89",
-                "reference": "0810061d529358c940c4470bfe470d7254531e89",
+                "url": "https://api.github.com/repos/whatson-web/BackendBundle/zipball/73f4ddd7d130a3f0d0c91cec4d68ad19056a800a",
+                "reference": "73f4ddd7d130a3f0d0c91cec4d68ad19056a800a",
                 "shasum": ""
             },
             "require": {
@@ -4772,7 +4771,7 @@
             ],
             "description": "Symfony - Whatson Web - BackendBundle",
             "homepage": "https://github.com/whatson-web/BackendBundle",
-            "time": "2017-01-17 08:32:11"
+            "time": "2017-02-16 16:41:21"
         },
         {
             "name": "whatson-web/backend-template-bundle",
@@ -4780,12 +4779,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/BackendTemplateBundle.git",
-                "reference": "712e511c39c3f1d17f24598aa3562871b8050dd1"
+                "reference": "6e1bba6e97a1128bb491c60b03f32a4256779f52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/BackendTemplateBundle/zipball/712e511c39c3f1d17f24598aa3562871b8050dd1",
-                "reference": "712e511c39c3f1d17f24598aa3562871b8050dd1",
+                "url": "https://api.github.com/repos/whatson-web/BackendTemplateBundle/zipball/6e1bba6e97a1128bb491c60b03f32a4256779f52",
+                "reference": "6e1bba6e97a1128bb491c60b03f32a4256779f52",
                 "shasum": ""
             },
             "require": {
@@ -4809,7 +4808,44 @@
             ],
             "description": "Symfony - Whatson Web - BackendTemplateBundle",
             "homepage": "https://github.com/whatson-web/BackendTemplateBundle",
-            "time": "2017-01-13 16:15:04"
+            "time": "2017-02-16 16:41:40"
+        },
+        {
+            "name": "whatson-web/cms-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/whatson-web/CmsBundle.git",
+                "reference": "7db883a9f148ce5adc15d9706071f320bef01f5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/whatson-web/CmsBundle/zipball/7db883a9f148ce5adc15d9706071f320bef01f5f",
+                "reference": "7db883a9f148ce5adc15d9706071f320bef01f5f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "WH\\CmsBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Whatson Web - Developers",
+                    "email": "dev@whatson-web.com"
+                }
+            ],
+            "description": "Symfony - Whatson Web - CmsBundle",
+            "homepage": "https://github.com/whatson-web/CmsBundle",
+            "time": "2017-02-16 16:41:53"
         },
         {
             "name": "whatson-web/lib-bundle",
@@ -4817,12 +4853,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/LibBundle.git",
-                "reference": "b40a136576c385bc627b02059fb522fc9378b51f"
+                "reference": "8a52934888d0ce6c91df281e13b4d00f72d32f69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/LibBundle/zipball/b40a136576c385bc627b02059fb522fc9378b51f",
-                "reference": "b40a136576c385bc627b02059fb522fc9378b51f",
+                "url": "https://api.github.com/repos/whatson-web/LibBundle/zipball/8a52934888d0ce6c91df281e13b4d00f72d32f69",
+                "reference": "8a52934888d0ce6c91df281e13b4d00f72d32f69",
                 "shasum": ""
             },
             "require": {
@@ -4846,7 +4882,7 @@
             ],
             "description": "Symfony - Whatson Web - LibBundle",
             "homepage": "https://github.com/whatson-web/LibBundle",
-            "time": "2017-01-18 10:25:31"
+            "time": "2017-02-16 16:42:10"
         },
         {
             "name": "whatson-web/media-bundle",
@@ -4854,12 +4890,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/MediaBundle.git",
-                "reference": "21b05ed7d78b2d765fc6c7d67abfa614c2682645"
+                "reference": "d3a7817ca1b195e4fedef93fce878613c638122e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/MediaBundle/zipball/21b05ed7d78b2d765fc6c7d67abfa614c2682645",
-                "reference": "21b05ed7d78b2d765fc6c7d67abfa614c2682645",
+                "url": "https://api.github.com/repos/whatson-web/MediaBundle/zipball/d3a7817ca1b195e4fedef93fce878613c638122e",
+                "reference": "d3a7817ca1b195e4fedef93fce878613c638122e",
                 "shasum": ""
             },
             "require": {
@@ -4883,7 +4919,7 @@
             ],
             "description": "Symfony - Whatson Web - MediaBundle",
             "homepage": "https://github.com/whatson-web/MediaBundle",
-            "time": "2017-01-10 12:49:46"
+            "time": "2017-02-16 16:42:23"
         },
         {
             "name": "whatson-web/parameter-bundle",
@@ -4928,12 +4964,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/SeoBundle.git",
-                "reference": "71c9865d7ff3d4415b943027c023acea8ae0b35c"
+                "reference": "c8387804c753ba803a12ec70ce917a2dcdf34c98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/SeoBundle/zipball/71c9865d7ff3d4415b943027c023acea8ae0b35c",
-                "reference": "71c9865d7ff3d4415b943027c023acea8ae0b35c",
+                "url": "https://api.github.com/repos/whatson-web/SeoBundle/zipball/c8387804c753ba803a12ec70ce917a2dcdf34c98",
+                "reference": "c8387804c753ba803a12ec70ce917a2dcdf34c98",
                 "shasum": ""
             },
             "require": {
@@ -4957,7 +4993,7 @@
             ],
             "description": "Symfony - Whatson Web - SeoBundle",
             "homepage": "https://github.com/whatson-web/SeoBundle",
-            "time": "2017-01-04 13:14:29"
+            "time": "2017-02-16 16:42:53"
         },
         {
             "name": "whatson-web/super-admin-bundle",
@@ -5002,12 +5038,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/UserBundle.git",
-                "reference": "b1421baf6e608abafef97cddf05cffbabbb1af0b"
+                "reference": "693db799584af561211793315dd0647cd0ecbb1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/UserBundle/zipball/b1421baf6e608abafef97cddf05cffbabbb1af0b",
-                "reference": "b1421baf6e608abafef97cddf05cffbabbb1af0b",
+                "url": "https://api.github.com/repos/whatson-web/UserBundle/zipball/693db799584af561211793315dd0647cd0ecbb1b",
+                "reference": "693db799584af561211793315dd0647cd0ecbb1b",
                 "shasum": ""
             },
             "require": {
@@ -5031,7 +5067,7 @@
             ],
             "description": "Symfony - Whatson Web - UserBundle",
             "homepage": "https://github.com/whatson-web/UserBundle",
-            "time": "2017-01-10 09:05:14"
+            "time": "2017-02-02 07:26:24"
         }
     ],
     "packages-dev": [
@@ -5085,7 +5121,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2016-11-07 19:48:31"
+            "time": "2016-11-07T19:48:31+00:00"
         },
         {
             "name": "symfony/phpunit-bridge",
@@ -5140,7 +5176,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2016-11-16 18:56:22"
+            "time": "2016-11-16T18:56:22+00:00"
         }
     ],
     "aliases": [],
@@ -5154,7 +5190,8 @@
         "whatson-web/super-admin-bundle": 20,
         "whatson-web/seo-bundle": 20,
         "whatson-web/media-bundle": 20,
-        "whatson-web/parameter-bundle": 20
+        "whatson-web/parameter-bundle": 20,
+        "whatson-web/cms-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
