@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9d7f2b967adfcb1d4b8bd8b9ad0491b",
+    "content-hash": "f533e79ae9c9d47cd31fab723440d0ce",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -4742,12 +4742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/BackendBundle.git",
-                "reference": "73f4ddd7d130a3f0d0c91cec4d68ad19056a800a"
+                "reference": "602ba308cfcdf44e694b9b39466145edb7a64344"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/BackendBundle/zipball/73f4ddd7d130a3f0d0c91cec4d68ad19056a800a",
-                "reference": "73f4ddd7d130a3f0d0c91cec4d68ad19056a800a",
+                "url": "https://api.github.com/repos/whatson-web/BackendBundle/zipball/602ba308cfcdf44e694b9b39466145edb7a64344",
+                "reference": "602ba308cfcdf44e694b9b39466145edb7a64344",
                 "shasum": ""
             },
             "require": {
@@ -4771,7 +4771,7 @@
             ],
             "description": "Symfony - Whatson Web - BackendBundle",
             "homepage": "https://github.com/whatson-web/BackendBundle",
-            "time": "2017-02-16 16:41:21"
+            "time": "2017-02-17 10:42:45"
         },
         {
             "name": "whatson-web/backend-template-bundle",
@@ -4809,43 +4809,6 @@
             "description": "Symfony - Whatson Web - BackendTemplateBundle",
             "homepage": "https://github.com/whatson-web/BackendTemplateBundle",
             "time": "2017-02-16 16:41:40"
-        },
-        {
-            "name": "whatson-web/cms-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/whatson-web/CmsBundle.git",
-                "reference": "7db883a9f148ce5adc15d9706071f320bef01f5f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/CmsBundle/zipball/7db883a9f148ce5adc15d9706071f320bef01f5f",
-                "reference": "7db883a9f148ce5adc15d9706071f320bef01f5f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.9"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-4": {
-                    "WH\\CmsBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Whatson Web - Developers",
-                    "email": "dev@whatson-web.com"
-                }
-            ],
-            "description": "Symfony - Whatson Web - CmsBundle",
-            "homepage": "https://github.com/whatson-web/CmsBundle",
-            "time": "2017-02-16 16:41:53"
         },
         {
             "name": "whatson-web/lib-bundle",
@@ -5038,12 +5001,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/UserBundle.git",
-                "reference": "693db799584af561211793315dd0647cd0ecbb1b"
+                "reference": "7f03eb630aeb8336ff0ed9158d682adab00e42b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/UserBundle/zipball/693db799584af561211793315dd0647cd0ecbb1b",
-                "reference": "693db799584af561211793315dd0647cd0ecbb1b",
+                "url": "https://api.github.com/repos/whatson-web/UserBundle/zipball/7f03eb630aeb8336ff0ed9158d682adab00e42b7",
+                "reference": "7f03eb630aeb8336ff0ed9158d682adab00e42b7",
                 "shasum": ""
             },
             "require": {
@@ -5067,7 +5030,7 @@
             ],
             "description": "Symfony - Whatson Web - UserBundle",
             "homepage": "https://github.com/whatson-web/UserBundle",
-            "time": "2017-02-02 07:26:24"
+            "time": "2017-02-17 10:43:50"
         }
     ],
     "packages-dev": [
@@ -5190,8 +5153,7 @@
         "whatson-web/super-admin-bundle": 20,
         "whatson-web/seo-bundle": 20,
         "whatson-web/media-bundle": 20,
-        "whatson-web/parameter-bundle": 20,
-        "whatson-web/cms-bundle": 20
+        "whatson-web/parameter-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -44,7 +44,8 @@ class AppKernel extends Kernel
 			new WH\ParameterBundle\WHParameterBundle(),
 			new MainBundle\MainBundle(),
 			new BackendBundle\BackendBundle(),
-		);
+            new UserBundle\UserBundle(),
+        );
 
 		if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
 			$bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();

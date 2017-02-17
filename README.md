@@ -37,5 +37,5 @@ Ajouter un domaine sur le compte dev@whatson-web.com (`Mailgun - dev@whatson-web
 Suivre le [tuto](https://github.com/whatson-web/wiki/blob/master/Proc%C3%A9dures/Administration/Cr%C3%A9ation%20super%20admin.md)
 
 ## 6/ Installation d'autres bundles
-- [CMS](https://github.com/whatson-web/CmsBundle/blob/master/docs/Installation.md)
+- [CMS](https://github.com/whatson-web/CmsBundle/blob/master/README.md)
 - [Blog](https://github.com/whatson-web/BlogBundle/blob/master/docs/Installation.md)
