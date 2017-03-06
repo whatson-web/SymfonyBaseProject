@@ -105,6 +105,14 @@ wh_seo:
     entities:
 
 wh_media:
+    formats:
+        default:
+            configuration:
+    entities:
+#        ExampleBundle\Entity\Example:
+#            field:
+#                usedFormats:
+#                    - default
 
 oneup_flysystem:
     adapters:

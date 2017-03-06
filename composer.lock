@@ -4927,12 +4927,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/SeoBundle.git",
-                "reference": "243e8ac80653365f3902aa81c5047c05e9430c74"
+                "reference": "169f586f3588a3e177596fea5f51f3ced9054ab2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/SeoBundle/zipball/243e8ac80653365f3902aa81c5047c05e9430c74",
-                "reference": "243e8ac80653365f3902aa81c5047c05e9430c74",
+                "url": "https://api.github.com/repos/whatson-web/SeoBundle/zipball/169f586f3588a3e177596fea5f51f3ced9054ab2",
+                "reference": "169f586f3588a3e177596fea5f51f3ced9054ab2",
                 "shasum": ""
             },
             "require": {
@@ -4956,7 +4956,7 @@
             ],
             "description": "Symfony - Whatson Web - SeoBundle",
             "homepage": "https://github.com/whatson-web/SeoBundle",
-            "time": "2017-03-06 08:04:28"
+            "time": "2017-03-06 13:32:41"
         },
         {
             "name": "whatson-web/super-admin-bundle",
