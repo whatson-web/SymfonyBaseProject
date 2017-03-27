@@ -1,0 +1,43 @@
+{% set itemsLength = items | length %}
+
+{% for item in items %}
+
+    {% if loop.index % nbColumns == 1 %}
+        <div class="row">
+    {% endif %}
+
+    {% if nbColumns == 2  %}
+
+        {% if loop.index == itemsLength and itemsLength % 2 == 1 %}
+            <div class="col-md-3"></div>
+        {% endif %}
+
+    {% elseif nbColumns == 3 %}
+
+        {% if loop.index == itemsLength and itemsLength % 3 == 1 %}
+            <div class="col-md-4"></div>
+        {% elseif loop.index == (itemsLength - 1) and itemsLength % 3 == 2 %}
+            <div class="col-md-2"></div>
+        {% endif %}
+
+    {% elseif nbColumns == 4 %}
+
+        {% if loop.index == itemsLength and itemsLength % 4 == 1 %}
+            <div class="col-md-4"></div>
+        {% elseif loop.index == (itemsLength - 1) and itemsLength % 4 == 2 %}
+            <div class="col-md-3"></div>
+        {% elseif loop.index == (itemsLength - 1) and itemsLength % 4 == 3 %}
+            <div class="col-md-2"></div>
+        {% endif %}
+
+    {% endif %}
+
+    <div class="{% if nbColumns == 2  %}col-md-6{% elseif nbColumns == 3 %}col-md-4{% elseif nbColumns == 4 %}col-md-3 col-xs-6{% endif %}">
+        {% include itemView with {'item' : item } %}
+    </div>
+
+    {% if loop.index % nbColumns == 0 or loop.last %}
+        </div>
+    {% endif %}
+
+{% endfor %}
