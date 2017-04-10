@@ -4743,12 +4743,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/BackendBundle.git",
-                "reference": "6175435fe1f0cabe44f362c5692b58fc5346e547"
+                "reference": "c2e3c932ba3faf3fc605e5aad03ab8f146c350f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/BackendBundle/zipball/6175435fe1f0cabe44f362c5692b58fc5346e547",
-                "reference": "6175435fe1f0cabe44f362c5692b58fc5346e547",
+                "url": "https://api.github.com/repos/whatson-web/BackendBundle/zipball/c2e3c932ba3faf3fc605e5aad03ab8f146c350f5",
+                "reference": "c2e3c932ba3faf3fc605e5aad03ab8f146c350f5",
                 "shasum": ""
             },
             "require": {
@@ -4772,7 +4772,7 @@
             ],
             "description": "Symfony - Whatson Web - BackendBundle",
             "homepage": "https://github.com/whatson-web/BackendBundle",
-            "time": "2017-03-06 16:47:37"
+            "time": "2017-03-15 14:38:56"
         },
         {
             "name": "whatson-web/backend-template-bundle",
@@ -4780,12 +4780,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/BackendTemplateBundle.git",
-                "reference": "e66f5d78e3e36326df17b2a410d4efb19f2b0f87"
+                "reference": "b8d2ed537db220b2d940f00a9f432ac1b7e3bfac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/BackendTemplateBundle/zipball/e66f5d78e3e36326df17b2a410d4efb19f2b0f87",
-                "reference": "e66f5d78e3e36326df17b2a410d4efb19f2b0f87",
+                "url": "https://api.github.com/repos/whatson-web/BackendTemplateBundle/zipball/b8d2ed537db220b2d940f00a9f432ac1b7e3bfac",
+                "reference": "b8d2ed537db220b2d940f00a9f432ac1b7e3bfac",
                 "shasum": ""
             },
             "require": {
@@ -4809,7 +4809,7 @@
             ],
             "description": "Symfony - Whatson Web - BackendTemplateBundle",
             "homepage": "https://github.com/whatson-web/BackendTemplateBundle",
-            "time": "2017-03-08 09:46:19"
+            "time": "2017-03-15 14:18:19"
         },
         {
             "name": "whatson-web/lib-bundle",
@@ -4817,12 +4817,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/LibBundle.git",
-                "reference": "d4efed92a56e0c9753e2339701c95eef5528bc0f"
+                "reference": "25323e42d5daa94847e5a49472f06c5d8cbeed37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/LibBundle/zipball/d4efed92a56e0c9753e2339701c95eef5528bc0f",
-                "reference": "d4efed92a56e0c9753e2339701c95eef5528bc0f",
+                "url": "https://api.github.com/repos/whatson-web/LibBundle/zipball/25323e42d5daa94847e5a49472f06c5d8cbeed37",
+                "reference": "25323e42d5daa94847e5a49472f06c5d8cbeed37",
                 "shasum": ""
             },
             "require": {
@@ -4846,7 +4846,7 @@
             ],
             "description": "Symfony - Whatson Web - LibBundle",
             "homepage": "https://github.com/whatson-web/LibBundle",
-            "time": "2017-03-09 08:04:48"
+            "time": "2017-03-28 06:58:53"
         },
         {
             "name": "whatson-web/media-bundle",
@@ -4854,12 +4854,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/MediaBundle.git",
-                "reference": "fef4d667a0c1098aff064f27c816cc4887edbd0f"
+                "reference": "7dd725253cd65e9be851ee9f63f8370efb4a2dc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/MediaBundle/zipball/fef4d667a0c1098aff064f27c816cc4887edbd0f",
-                "reference": "fef4d667a0c1098aff064f27c816cc4887edbd0f",
+                "url": "https://api.github.com/repos/whatson-web/MediaBundle/zipball/7dd725253cd65e9be851ee9f63f8370efb4a2dc7",
+                "reference": "7dd725253cd65e9be851ee9f63f8370efb4a2dc7",
                 "shasum": ""
             },
             "require": {
@@ -4883,7 +4883,7 @@
             ],
             "description": "Symfony - Whatson Web - MediaBundle",
             "homepage": "https://github.com/whatson-web/MediaBundle",
-            "time": "2017-03-02 13:56:19"
+            "time": "2017-03-27 09:44:24"
         },
         {
             "name": "whatson-web/parameter-bundle",
@@ -4891,12 +4891,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/ParameterBundle.git",
-                "reference": "74bf33ecb79e3ec82cbfd384937a71c69627fb16"
+                "reference": "6f118ca645e91a90ac454419a4f81fa9db2bd11b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/ParameterBundle/zipball/74bf33ecb79e3ec82cbfd384937a71c69627fb16",
-                "reference": "74bf33ecb79e3ec82cbfd384937a71c69627fb16",
+                "url": "https://api.github.com/repos/whatson-web/ParameterBundle/zipball/6f118ca645e91a90ac454419a4f81fa9db2bd11b",
+                "reference": "6f118ca645e91a90ac454419a4f81fa9db2bd11b",
                 "shasum": ""
             },
             "require": {
@@ -4920,7 +4920,7 @@
             ],
             "description": "Symfony - Whatson Web - ParameterBundle",
             "homepage": "https://github.com/whatson-web/ParameterBundle",
-            "time": "2017-03-06 12:58:03"
+            "time": "2017-03-28 13:24:07"
         },
         {
             "name": "whatson-web/seo-bundle",
@@ -4928,12 +4928,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/SeoBundle.git",
-                "reference": "169f586f3588a3e177596fea5f51f3ced9054ab2"
+                "reference": "483fb87fab51d2a00a181ae242e0769c99680a9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/SeoBundle/zipball/169f586f3588a3e177596fea5f51f3ced9054ab2",
-                "reference": "169f586f3588a3e177596fea5f51f3ced9054ab2",
+                "url": "https://api.github.com/repos/whatson-web/SeoBundle/zipball/483fb87fab51d2a00a181ae242e0769c99680a9b",
+                "reference": "483fb87fab51d2a00a181ae242e0769c99680a9b",
                 "shasum": ""
             },
             "require": {
@@ -4957,7 +4957,7 @@
             ],
             "description": "Symfony - Whatson Web - SeoBundle",
             "homepage": "https://github.com/whatson-web/SeoBundle",
-            "time": "2017-03-06 13:32:41"
+            "time": "2017-04-06 08:17:48"
         },
         {
             "name": "whatson-web/super-admin-bundle",
@@ -4965,12 +4965,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/SuperAdminBundle.git",
-                "reference": "031a774a5dd219e20ed7e1b3778416c146f542c9"
+                "reference": "fdcb9bd99723dd4d48df65788dc2b54abb446d41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/SuperAdminBundle/zipball/031a774a5dd219e20ed7e1b3778416c146f542c9",
-                "reference": "031a774a5dd219e20ed7e1b3778416c146f542c9",
+                "url": "https://api.github.com/repos/whatson-web/SuperAdminBundle/zipball/fdcb9bd99723dd4d48df65788dc2b54abb446d41",
+                "reference": "fdcb9bd99723dd4d48df65788dc2b54abb446d41",
                 "shasum": ""
             },
             "require": {
@@ -4994,7 +4994,7 @@
             ],
             "description": "Symfony - Whatson Web - SuperAdminBundle",
             "homepage": "https://github.com/whatson-web/SuperAdminBundle",
-            "time": "2017-03-06 08:06:47"
+            "time": "2017-03-14 08:47:59"
         },
         {
             "name": "whatson-web/user-bundle",
@@ -5002,12 +5002,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/UserBundle.git",
-                "reference": "d79f427cb3c343f6720e293a8a43c11054309e98"
+                "reference": "5125dbc7d25bd43086ab4ba6382db87191f87112"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/UserBundle/zipball/d79f427cb3c343f6720e293a8a43c11054309e98",
-                "reference": "d79f427cb3c343f6720e293a8a43c11054309e98",
+                "url": "https://api.github.com/repos/whatson-web/UserBundle/zipball/5125dbc7d25bd43086ab4ba6382db87191f87112",
+                "reference": "5125dbc7d25bd43086ab4ba6382db87191f87112",
                 "shasum": ""
             },
             "require": {
@@ -5031,7 +5031,7 @@
             ],
             "description": "Symfony - Whatson Web - UserBundle",
             "homepage": "https://github.com/whatson-web/UserBundle",
-            "time": "2017-03-06 12:58:25"
+            "time": "2017-03-14 08:48:10"
         }
     ],
     "packages-dev": [

@@ -36,6 +36,7 @@ twig:
     strict_variables: "%kernel.debug%"
     globals:
         wh_media_baseurl: '%media.baseurl%'
+        project_name: '%project_name%'
 
 # Doctrine Configuration
 doctrine:
