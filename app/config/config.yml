@@ -182,3 +182,6 @@ fos_user:
     db_driver: orm
     firewall_name: main
     user_class: UserBundle\Entity\User
+    from_email:
+        sender_name: '%project_name%'
+        address: 'test@mywebsite.com'

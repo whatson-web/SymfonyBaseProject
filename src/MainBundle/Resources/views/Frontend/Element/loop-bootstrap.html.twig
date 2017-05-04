@@ -6,7 +6,7 @@
         <div class="row">
     {% endif %}
 
-    {% if nbColumns == 2  %}
+    {% if nbColumns == 2 %}
 
         {% if loop.index == itemsLength and itemsLength % 2 == 1 %}
             <div class="col-md-3"></div>
@@ -32,7 +32,7 @@
 
     {% endif %}
 
-    <div class="{% if nbColumns == 2  %}col-md-6{% elseif nbColumns == 3 %}col-md-4{% elseif nbColumns == 4 %}col-md-3 col-xs-6{% endif %}">
+    <div class="{% if nbColumns == 2 %}col-md-6{% elseif nbColumns == 3 %}col-md-4{% elseif nbColumns == 4 %}col-md-3 col-xs-6{% endif %}">
         {% include itemView with {'item' : item } %}
     </div>
 

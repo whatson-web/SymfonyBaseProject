@@ -7,13 +7,12 @@ use WH\UserBundle\Model\User as BaseUser;
 
 /**
  * @ORM\Table(name="user")
- * @ORM\Entity(repositoryClass="WH\UserBundle\Repository\UserRepository")
+ * @ORM\Entity(repositoryClass="UserBundle\Repository\UserRepository")
  *
  * Class User
  *
- * @package WH\UserBundle\Entity
+ * @package UserBundle\Entity
  */
 class User extends BaseUser
 {
-
 }
