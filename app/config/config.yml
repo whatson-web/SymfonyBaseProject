@@ -99,8 +99,8 @@ stfalcon_tinymce:
             toolbar2: "alignleft aligncenter alignright alignjustify | bold italic | forecolor backcolor"
             image_title: true
             image_dimensions: false
-            paste_webkit_styles: ""
-            paste_retain_style_properties: ""
+            paste_webkit_styles: "font-style font-weight"
+            paste_retain_style_properties: "font-style font-weight"
 
 wh_seo:
     entities:
