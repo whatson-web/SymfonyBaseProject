@@ -4967,12 +4967,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/LibBundle.git",
-                "reference": "5189e7de5b6ecdb36f4d05fa7c40d12c5f85508e"
+                "reference": "0e2b1248a476af75d1caaba15c4db14382056c36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/LibBundle/zipball/5189e7de5b6ecdb36f4d05fa7c40d12c5f85508e",
-                "reference": "5189e7de5b6ecdb36f4d05fa7c40d12c5f85508e",
+                "url": "https://api.github.com/repos/whatson-web/LibBundle/zipball/0e2b1248a476af75d1caaba15c4db14382056c36",
+                "reference": "0e2b1248a476af75d1caaba15c4db14382056c36",
                 "shasum": ""
             },
             "require": {
@@ -4996,7 +4996,7 @@
             ],
             "description": "Symfony - Whatson Web - LibBundle",
             "homepage": "https://github.com/whatson-web/LibBundle",
-            "time": "2017-05-04 14:14:58"
+            "time": "2017-05-12 07:51:38"
         },
         {
             "name": "whatson-web/media-bundle",
