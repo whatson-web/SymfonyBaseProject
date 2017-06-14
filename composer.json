@@ -12,8 +12,8 @@
         ]
     },
     "require": {
-        "php": ">=5.3.9",
-        "symfony/symfony": "2.8.*",
+        "php": ">=5.6.0",
+        "symfony/symfony": "3.*",
         "doctrine/orm": "^2.4.8",
         "doctrine/doctrine-bundle": "~1.4",
         "symfony/swiftmailer-bundle": "~2.3",
@@ -42,7 +42,8 @@
         "whatson-web/super-admin-bundle": "dev-master",
         "whatson-web/seo-bundle": "dev-master",
         "whatson-web/media-bundle": "dev-master",
-        "whatson-web/parameter-bundle": "dev-master"
+        "whatson-web/parameter-bundle": "dev-master",
+        "twig/extensions": "^1.5"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",
