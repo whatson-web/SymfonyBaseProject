@@ -1,0 +1,26 @@
+{% extends 'MainBundle:Frontend/Layout:layout.html.twig' %}
+
+{% block metas %}{% include 'WHSeoBundle:Element:metas.html.twig' with {'entity' : page} %}{% endblock %}
+
+{% block body %}
+
+    <h1>{{ page.title }}</h1>
+    {{ page.body | raw }}
+
+    {% if home.portfolioFiles is not empty %}
+
+        <div class="portfolio">
+
+            {% for portfolioFile in home.portfolioFiles %}
+
+                <div>
+                    {{ portfolioFile | wh_file('file', 'default') }}
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    {% endif %}
+
+{% endblock %}

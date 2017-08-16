@@ -1,0 +1,72 @@
+title: 'Edit a page'
+
+breadcrumb:
+    index:
+        label: 'Pages list'
+        action: 'index'
+    update:
+        label: 'Edit a page'
+        action: 'update'
+
+formFields:
+    page:
+    portfolioFiles:
+    saveAndStay:
+        label: 'Save'
+        type : 'submit'
+    saveAndQuit:
+        label: 'Save & Quit'
+        type : 'submit'
+
+central:
+    tabs:
+        contenu:
+            name: 'Content'
+            icon: 'file-text'
+            formZones:
+                entete:
+                    title: 'Header'
+                    fields:
+                        page.name:
+                            col: '6'
+                        page.title:
+                            col: '6'
+                portfolio:
+                    title: 'Portfolio'
+                    fields:
+                        portfolioFiles:
+                            col: '12'
+        metas:
+            name: 'SEO'
+            icon: 'google'
+            formZones:
+                seo:
+                    fields:
+                        page.metas.title:
+                            col: '12'
+                        page.metas.description:
+                            col: '12'
+                        page.metas.robots:
+                            col: '12'
+    viewLink:
+        name: 'View'
+        icon: 'eye'
+        action: 'view'
+
+column:
+    panelZones:
+        publication:
+            headerLabel: 'Publication'
+            icon: 'save'
+            fields:
+                - page.status
+                - page.pageTemplateSlug
+                - page.parent
+                - page.menus
+            footerListFormButtons:
+                saveAndQuit:
+                    field: 'saveAndQuit'
+                    color: 'primary'
+                saveAndStay:
+                    field: 'saveAndStay'
+                    color: 'success'

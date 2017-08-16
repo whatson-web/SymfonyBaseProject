@@ -6,7 +6,8 @@ imports:
 # Put parameters here that don't need to change on each machine where the app is deployed
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
-    locale: fr
+    locale: "fr"
+    locales: [fr, en]
 
 framework:
     #esi:             ~
@@ -59,6 +60,13 @@ doctrine:
         auto_generate_proxy_classes: "%kernel.debug%"
         naming_strategy: doctrine.orm.naming_strategy.underscore
         auto_mapping: true
+        mappings:
+            translatable:
+                type: annotation
+                is_bundle: false
+                prefix: Gedmo\Translatable\Entity
+                dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Translatable/Entity"
+                alias: GedmoTranslatable
 
 # Swiftmailer Configuration
 cspoo_swiftmailer_mailgun:
@@ -102,18 +110,40 @@ stfalcon_tinymce:
             paste_webkit_styles: "font-style font-weight"
             paste_retain_style_properties: "font-style font-weight"
 
+wh_cms:
+    templates:
+        home:
+            name: 'Accueil'
+            frontView: 'CmsBundle:Frontend/Home:view.html.twig'
+            frontController: 'CmsBundle:Frontend/Home:view'
+            backendController: 'CmsBundle:Backend/Home'
+        page:
+            name: 'Page normale'
+        contact:
+            name: 'Page contact'
+            frontView: 'CmsBundle:Frontend/Contact:view.html.twig'
+            frontController: 'CmsBundle:Frontend/Contact:view'
+            backendController: 'CmsBundle:Backend/Contact'
+
 wh_seo:
     entities:
+        CmsBundle\Entity\Page:
+            urlFields:
+                - {type: 'tree', entity: 'CmsBundle\Entity\Page', field: 'parent'}
+                - {type: 'field', field: 'slug', suffix: '/'}
+            defaultMetasFields:
+                title: 'name'
+                description: 'resume'
 
 wh_media:
     formats:
         default:
             configuration:
     entities:
-#        ExampleBundle\Entity\Example:
-#            field:
-#                usedFormats:
-#                    - default
+        CmsBundle\Entity\HomeFile:
+            file:
+                usedFormats:
+                    - default
 
 oneup_flysystem:
     adapters:

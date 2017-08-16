@@ -45,7 +45,9 @@ class AppKernel extends Kernel
 			new MainBundle\MainBundle(),
 			new BackendBundle\BackendBundle(),
             new UserBundle\UserBundle(),
-            new Symfony\Bundle\WebServerBundle\WebServerBundle()
+            new Symfony\Bundle\WebServerBundle\WebServerBundle(),
+            new CmsBundle\CmsBundle(),
+            new WH\CmsBundle\WHCmsBundle(),
         );
 
 		if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

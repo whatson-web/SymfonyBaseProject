@@ -46,6 +46,17 @@ class Menu implements ContainerAwareInterface
         );
 
         $menu->addChild(
+            'pages',
+            [
+                'label'  => $this->getLabel('sitemap', 'Pages'),
+                'route'  => 'bk_cms_page_index',
+                'extras' => [
+                    'safe_label' => true,
+                ],
+            ]
+        );
+
+        $menu->addChild(
             'users',
             [
                 'label'  => $this->getLabel('user', 'Utilisateurs'),
@@ -160,7 +171,7 @@ class Menu implements ContainerAwareInterface
         $menu['seo']->addChild(
             'configurations',
             [
-                'label'  => $this->getLabel('cog', 'Configurations'),
+                'label'  => $this->getLabel('', 'Configurations'),
                 'route'  => 'sudo_wh_seo_config_preview',
                 'extras' => [
                     'safe_label' => true,
@@ -171,7 +182,7 @@ class Menu implements ContainerAwareInterface
         $menu['seo']->addChild(
             'urls',
             [
-                'label'  => $this->getLabel('link', 'Urls'),
+                'label'  => $this->getLabel('', 'Urls'),
                 'route'  => 'sudo_wh_seo_url_index',
                 'extras' => [
                     'safe_label' => true,
@@ -182,7 +193,7 @@ class Menu implements ContainerAwareInterface
         $menu['seo']->addChild(
             'redirections',
             [
-                'label'  => $this->getLabel('long-arrow-right', 'Redirections'),
+                'label'  => $this->getLabel('', 'Redirections'),
                 'route'  => 'sudo_wh_seo_redirection_index',
                 'extras' => [
                     'safe_label' => true,

@@ -12,6 +12,10 @@ sudo_wh_superadmin:
     type:     annotation
 
 # ADMIN
+bk_cms:
+    resource: "@CmsBundle/Controller/Backend/"
+    type:     annotation
+
 bk_user:
     resource: "@UserBundle/Controller/Backend/"
     type:     annotation

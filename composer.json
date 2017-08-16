@@ -44,7 +44,8 @@
         "whatson-web/media-bundle": "dev-master",
         "whatson-web/parameter-bundle": "dev-master",
         "twig/extensions": "^1.5",
-        "symfony/web-server-bundle": "^3.3"
+        "symfony/web-server-bundle": "^3.3",
+        "whatson-web/cms-bundle": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",

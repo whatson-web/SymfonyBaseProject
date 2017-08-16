@@ -1,0 +1,82 @@
+actions:
+    index:
+        route: 'bk_cms_page_index'
+        parameters:
+            parentId: 'page.parent.id'
+    order:
+        route: 'bk_cms_page_order'
+    create:
+        route: 'bk_cms_page_create'
+    update:
+        route: 'bk_cms_page_update'
+        parameters:
+            id: 'page.id'
+    delete:
+        route: 'bk_cms_page_delete'
+        parameters:
+            id: 'page.id'
+    view:
+        route: 'ft_wh_seo_router_dispatch'
+        parameters:
+            url: 'page.url.url'
+
+defaultData:
+    parent.id:
+
+formFields:
+    page:
+        type: 'sub-form'
+        entityPathConfig:
+            bundlePrefix: ''
+            bundle: 'CmsBundle'
+            entity: 'Page'
+            type: 'Backend'
+        fields:
+            name:
+                label: 'Name'
+                field: 'name'
+                type: 'text'
+            title:
+                label: 'Title'
+                field: 'title'
+                type: 'text'
+            parent:
+                label: 'Parent page'
+                field: 'parent'
+                type: 'entity'
+                class: 'CmsBundle:Page'
+                choice_label: 'indentedName'
+            menus:
+                label: 'Menu(s)'
+                field: 'menus'
+                type: 'choice'
+                multiple: 'true'
+                options:
+                    type: 'parameter'
+                    parameter: 'wh_cms_menus_choices'
+            pageTemplateSlug:
+                label: 'Template'
+                field: 'pageTemplateSlug'
+                type: 'choice'
+                options:
+                    type: 'parameter'
+                    parameter: 'wh_cms_templates_choices'
+            status:
+                label: 'Status'
+                type : 'choice'
+                options:
+                    type: 'static'
+                    field: 'statuses'
+            metas:
+                type: 'form'
+                form: 'WH\SeoBundle\Form\Backend\MetasType'
+            resume:
+                label: 'Resume'
+                type: 'textarea'
+    email:
+        label: 'Email'
+        type: 'text'
+
+menus:
+    main: 'backendMenu'
+    right: 'backendMenuRight'

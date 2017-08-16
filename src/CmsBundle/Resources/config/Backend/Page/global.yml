@@ -1,0 +1,76 @@
+actions:
+    index:
+        route: 'bk_cms_page_index'
+        parameters:
+            parentId: 'parent.id'
+    order:
+        route: 'bk_cms_page_order'
+    create:
+        route: 'bk_cms_page_create'
+    update:
+        route: 'bk_cms_page_update'
+        parameters:
+            id: 'id'
+    delete:
+        route: 'bk_cms_page_delete'
+        parameters:
+            id: 'id'
+    view:
+        route: 'ft_wh_seo_router_dispatch'
+        parameters:
+            url: 'url.url'
+
+defaultData:
+    parent.id:
+
+formFields:
+    name:
+        label: 'Name'
+        field: 'name'
+        type: 'text'
+    title:
+        label: 'Title'
+        field: 'title'
+        type: 'text'
+    resume:
+        label: 'Resume'
+        field: 'resume'
+        type: 'textarea'
+    body:
+        label: 'Content'
+        field: 'body'
+        type: 'tinymce'
+    parent:
+        label: 'Parent page'
+        field: 'parent'
+        type: 'entity'
+        class: 'CmsBundle:Page'
+        choice_label: 'indentedName'
+    menus:
+        label: 'Menu(s)'
+        field: 'menus'
+        type: 'choice'
+        multiple: 'true'
+        options:
+            type: 'parameter'
+            parameter: 'wh_cms_menus_choices'
+    pageTemplateSlug:
+        label: 'Template'
+        field: 'pageTemplateSlug'
+        type: 'choice'
+        options:
+            type: 'parameter'
+            parameter: 'wh_cms_templates_choices'
+    status:
+        label: 'Status'
+        type : 'choice'
+        options:
+            type: 'static'
+            field: 'statuses'
+    metas:
+        type: 'form'
+        form: 'WH\SeoBundle\Form\Backend\MetasType'
+
+menus:
+    main: 'backendMenu'
+    right: 'backendMenuRight'

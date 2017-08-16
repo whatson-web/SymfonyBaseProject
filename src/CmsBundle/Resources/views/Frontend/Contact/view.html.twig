@@ -1,0 +1,31 @@
+{% extends 'MainBundle:Frontend/Layout:layout.html.twig' %}
+
+{% block metas %}{% include 'WHSeoBundle:Element:metas.html.twig' with {'entity' : page} %}{% endblock %}
+
+{% block body %}
+
+    <h1>{{ page.title }}</h1>
+    {{ page.body | raw }}
+
+    {% if formSended is defined %}
+
+        <div class="alert alert-success">Votre message a été envoyé</div>
+
+    {% else %}
+
+        {{ form_start(form) }}
+
+        {{ form_row(form.lastname) }}
+        {{ form_row(form.firstname) }}
+        {{ form_row(form.email) }}
+        {{ form_row(form.message) }}
+
+        <div class="submit">
+            <button type="submit">Envoyer</button>
+        </div>
+
+        {{ form_end(form) }}
+
+    {% endif %}
+
+{% endblock %}
