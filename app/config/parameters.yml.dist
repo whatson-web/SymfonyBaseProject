@@ -1,6 +1,7 @@
 parameters:
 
     project_name:
+    project_name_slug:
 
     database_host:
     database_port:

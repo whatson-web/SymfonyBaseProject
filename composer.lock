@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8eb440461ebbd6fe67ce870e840eab8f",
+    "content-hash": "e2a145cb08ad505650ed3649cd2af980",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -2220,6 +2220,63 @@
             "time": "2017-02-23T05:07:33+00:00"
         },
         {
+            "name": "league/csv",
+            "version": "8.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/csv.git",
+                "reference": "fa8bc05f64eb6c66b96edfaf60648f022ecb5f55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/fa8bc05f64eb6c66b96edfaf60648f022ecb5f55",
+                "reference": "fa8bc05f64eb6c66b96edfaf60648f022ecb5f55",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^1.9",
+                "phpunit/phpunit": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "8.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Csv\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ignace Nyamagana Butera",
+                    "email": "nyamsprod@gmail.com",
+                    "homepage": "https://github.com/nyamsprod/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Csv data manipulation made easy in PHP",
+            "homepage": "http://csv.thephpleague.com",
+            "keywords": [
+                "csv",
+                "export",
+                "filter",
+                "import",
+                "read",
+                "write"
+            ],
+            "time": "2017-07-12T07:18:20+00:00"
+        },
+        {
             "name": "league/flysystem",
             "version": "1.0.41",
             "source": {
@@ -2405,6 +2462,72 @@
             "description": "Glide adapter for Symfony",
             "homepage": "http://glide.thephpleague.com",
             "time": "2016-07-01T16:05:08+00:00"
+        },
+        {
+            "name": "liuggio/ExcelBundle",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/liuggio/ExcelBundle.git",
+                "reference": "b4fe94b64449490a1b5fbbce827c2501be335126"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liuggio/ExcelBundle/zipball/b4fe94b64449490a1b5fbbce827c2501be335126",
+                "reference": "b4fe94b64449490a1b5fbbce827c2501be335126",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "phpoffice/phpexcel": "~1.8.1",
+                "symfony/framework-bundle": "~2.6|~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6",
+                "sensio/framework-extra-bundle": "~2.3|~3.0",
+                "symfony/browser-kit": "~2.6|~3.0",
+                "symfony/class-loader": "~2.6|~3.0",
+                "symfony/finder": "~2.6|~3.0",
+                "symfony/form": "~2.6|~3.0",
+                "symfony/validator": "~2.6|~3.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ],
+                "psr-4": {
+                    "Liuggio\\ExcelBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ExcelBundle Contributors",
+                    "homepage": "https://github.com/liuggio/ExcelBundle#contributors"
+                },
+                {
+                    "name": "Giulio De Donato",
+                    "email": "liuggio@gmail.com"
+                }
+            ],
+            "description": "This is a Symfony2 Bundle helps you to read and write Excel files (including pdf, xlsx, odt), thanks to the PHPExcel library",
+            "homepage": "http://www.welcometothebundle.com",
+            "keywords": [
+                "Symfony2",
+                "bundle",
+                "excel",
+                "xls"
+            ],
+            "time": "2016-06-20T17:11:22+00:00"
         },
         {
             "name": "mailgun/mailgun-php",
@@ -3391,6 +3514,63 @@
                 "stopwatch"
             ],
             "time": "2016-05-19T06:10:14+00:00"
+        },
+        {
+            "name": "phpoffice/phpexcel",
+            "version": "1.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPOffice/PHPExcel.git",
+                "reference": "372c7cbb695a6f6f1e62649381aeaa37e7e70b32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPOffice/PHPExcel/zipball/372c7cbb695a6f6f1e62649381aeaa37e7e70b32",
+                "reference": "372c7cbb695a6f6f1e62649381aeaa37e7e70b32",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPExcel": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Maarten Balliauw",
+                    "homepage": "http://blog.maartenballiauw.be"
+                },
+                {
+                    "name": "Mark Baker"
+                },
+                {
+                    "name": "Franck Lefevre",
+                    "homepage": "http://blog.rootslabs.net"
+                },
+                {
+                    "name": "Erik Tilt"
+                }
+            ],
+            "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
+            "homepage": "http://phpexcel.codeplex.com",
+            "keywords": [
+                "OpenXML",
+                "excel",
+                "php",
+                "spreadsheet",
+                "xls",
+                "xlsx"
+            ],
+            "time": "2015-05-01T07:00:55+00:00"
         },
         {
             "name": "psr/cache",
@@ -4874,12 +5054,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/BackendBundle.git",
-                "reference": "c3ef4b026d86170db10d93ec32d733944bbafc04"
+                "reference": "d97c2ea2723b408df32baba4498cb608c4ce7d7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/BackendBundle/zipball/c3ef4b026d86170db10d93ec32d733944bbafc04",
-                "reference": "c3ef4b026d86170db10d93ec32d733944bbafc04",
+                "url": "https://api.github.com/repos/whatson-web/BackendBundle/zipball/d97c2ea2723b408df32baba4498cb608c4ce7d7b",
+                "reference": "d97c2ea2723b408df32baba4498cb608c4ce7d7b",
                 "shasum": ""
             },
             "require": {
@@ -4903,7 +5083,7 @@
             ],
             "description": "Symfony - Whatson Web - BackendBundle",
             "homepage": "https://github.com/whatson-web/BackendBundle",
-            "time": "2017-08-16 07:09:37"
+            "time": "2017-09-20 09:18:05"
         },
         {
             "name": "whatson-web/backend-template-bundle",
@@ -4911,12 +5091,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/BackendTemplateBundle.git",
-                "reference": "de59531548c3b29a29eb26e37b2221f2e8ff2cb9"
+                "reference": "5c297f3439a91c65ccdd0ee735183f041a9a2ea1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/BackendTemplateBundle/zipball/de59531548c3b29a29eb26e37b2221f2e8ff2cb9",
-                "reference": "de59531548c3b29a29eb26e37b2221f2e8ff2cb9",
+                "url": "https://api.github.com/repos/whatson-web/BackendTemplateBundle/zipball/5c297f3439a91c65ccdd0ee735183f041a9a2ea1",
+                "reference": "5c297f3439a91c65ccdd0ee735183f041a9a2ea1",
                 "shasum": ""
             },
             "require": {
@@ -4940,7 +5120,7 @@
             ],
             "description": "Symfony - Whatson Web - BackendTemplateBundle",
             "homepage": "https://github.com/whatson-web/BackendTemplateBundle",
-            "time": "2017-07-19 09:40:47"
+            "time": "2017-09-19 10:09:32"
         },
         {
             "name": "whatson-web/cms-bundle",
@@ -4985,12 +5165,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/LibBundle.git",
-                "reference": "e1b5d17535031ac22fe87f65a1ae68e5666b8690"
+                "reference": "a021a6c8dd142245c5dee0d396c0e1cfbebd9f75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/LibBundle/zipball/e1b5d17535031ac22fe87f65a1ae68e5666b8690",
-                "reference": "e1b5d17535031ac22fe87f65a1ae68e5666b8690",
+                "url": "https://api.github.com/repos/whatson-web/LibBundle/zipball/a021a6c8dd142245c5dee0d396c0e1cfbebd9f75",
+                "reference": "a021a6c8dd142245c5dee0d396c0e1cfbebd9f75",
                 "shasum": ""
             },
             "require": {
@@ -5014,7 +5194,7 @@
             ],
             "description": "Symfony - Whatson Web - LibBundle",
             "homepage": "https://github.com/whatson-web/LibBundle",
-            "time": "2017-08-07 14:52:40"
+            "time": "2017-09-19 13:58:34"
         },
         {
             "name": "whatson-web/media-bundle",
@@ -5096,12 +5276,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whatson-web/SeoBundle.git",
-                "reference": "bec3b63e583be3e6a5911e1fc7fc3ad495e47076"
+                "reference": "00c1b459a6cb708c067c754b6bfc72b0f543adf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whatson-web/SeoBundle/zipball/bec3b63e583be3e6a5911e1fc7fc3ad495e47076",
-                "reference": "bec3b63e583be3e6a5911e1fc7fc3ad495e47076",
+                "url": "https://api.github.com/repos/whatson-web/SeoBundle/zipball/00c1b459a6cb708c067c754b6bfc72b0f543adf3",
+                "reference": "00c1b459a6cb708c067c754b6bfc72b0f543adf3",
                 "shasum": ""
             },
             "require": {
@@ -5125,7 +5305,7 @@
             ],
             "description": "Symfony - Whatson Web - SeoBundle",
             "homepage": "https://github.com/whatson-web/SeoBundle",
-            "time": "2017-08-16 08:14:59"
+            "time": "2017-09-25 10:37:04"
         },
         {
             "name": "whatson-web/super-admin-bundle",
