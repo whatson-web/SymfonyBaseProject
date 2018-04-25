@@ -1,3 +1,8 @@
+api:
+    resource: '.'
+    type: 'api_platform'
+    prefix: '/api'
+
 # SUDO
 sudo_wh_user:
     resource: "@WHUserBundle/Controller/SuperAdmin/"
@@ -27,6 +32,10 @@ bk_wh_user:
 bk_wh_parameter:
     resource: "@WHParameterBundle/Controller/Backend/"
     type:     annotation
+
+bk_wh_media:
+   resource: "@WHMediaBundle/Controller/Backend/"
+   type:     annotation
 
 # EXTERNAL BUNDLES
 elfinder:

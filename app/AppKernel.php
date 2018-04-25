@@ -48,6 +48,8 @@ class AppKernel extends Kernel
             new Symfony\Bundle\WebServerBundle\WebServerBundle(),
             new CmsBundle\CmsBundle(),
             new WH\CmsBundle\WHCmsBundle(),
+            new ApiPlatform\Core\Bridge\Symfony\Bundle\ApiPlatformBundle(),
+
         );
 
 		if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

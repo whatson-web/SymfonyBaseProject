@@ -47,7 +47,8 @@
         "symfony/web-server-bundle": "^3.3",
         "whatson-web/cms-bundle": "dev-master",
         "league/csv": "^8.2",
-        "liuggio/ExcelBundle": "^2.1"
+        "liuggio/ExcelBundle": "^2.1",
+        "api-platform/core": "^2.2"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",

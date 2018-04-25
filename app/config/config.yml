@@ -132,18 +132,15 @@ wh_seo:
                 - {type: 'tree', entity: 'CmsBundle\Entity\Page', field: 'parent'}
                 - {type: 'field', field: 'slug', suffix: '/'}
             defaultMetasFields:
-                title: 'name'
-                description: 'resume'
+                title:
+                    - {field: 'name'}
+                description:
+                    - {field: 'resume'}
 
 wh_media:
     formats:
         default:
             configuration:
-    entities:
-        CmsBundle\Entity\HomeFile:
-            file:
-                usedFormats:
-                    - default
 
 oneup_flysystem:
     adapters:
@@ -215,3 +212,6 @@ fos_user:
     from_email:
         sender_name: '%project_name%'
         address: 'test@mywebsite.com'
+
+# app/config/config.yml
+api_platform:
