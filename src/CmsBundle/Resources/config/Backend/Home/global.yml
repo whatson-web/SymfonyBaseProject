@@ -21,7 +21,8 @@ actions:
             url: 'page.url.url'
 
 defaultData:
-    parent.id:
+    parent:
+        id:
 
 formFields:
     page:
